@@ -1,0 +1,69 @@
+{
+    "products": [{
+            "id": 1,
+            "title": "Solid Men Raincoat",
+            "brand": "RedTape",
+            "size": ["S", "M", "L"],
+            "img": "https://rukminim1.flixcart.com/image/880/1056/l3dcl8w0/raincoat/z/k/w/3xl-wf121eco-ecoblack-zeel-original-imageg448e9y6jrj.jpeg?q=50",
+            "ideal": "Men",
+            "price": 899,
+            "oldPrice": 999,
+            "discount": 10
+        },
+        {
+            "id": 2,
+            "title": "Regular Men Grey Jeans",
+            "brand": "Highlander",
+            "img": "https://rukminim1.flixcart.com/image/880/1056/kqttg280/jean/e/x/l/32-mss21jn721-metronaut-original-imag4rczgszwhkjq.jpeg?q=50",
+            "size": ["L", "XL"],
+            "ideal": "Men",
+            "price": 804,
+            "oldPrice": 1749,
+            "discount": 54
+        },
+        {
+            "id": 3,
+            "title": "TRIPR MEN VEST",
+            "brand": "Jockey",
+            "img": "https://rukminim1.flixcart.com/image/880/1056/kr0ynbk0/vest/s/w/6/l-9922-0105-black-jockey-original-imag4wtzhnzubcha.jpeg?q=50",
+            "size": ["M", "L"],
+            "ideal": "Men",
+            "price": 319,
+            "oldPrice": 1499,
+            "discount": 78
+        },
+        {
+            "id": 4,
+            "title": "Men & Women Ankle Length",
+            "brand": "Fila",
+            "img": "https://rukminim1.flixcart.com/image/880/1056/ku8pbbk0/sock/p/i/z/free-3-ex-net-vamear-original-imag7ff5pmfgyauh.jpeg?q=50",
+            "size": ["S", "M", "L", "XL"],
+            "ideal": "Women",
+            "price": 160,
+            "oldPrice": 499,
+            "discount": 67
+        },
+        {
+            "id": 5,
+            "title": "Party Kurta and Pyjama Set",
+            "brand": "Fila",
+            "img": "https://rukminim1.flixcart.com/image/880/1056/kqse07k0/kids-ethnic-set/b/b/f/6-7-years-bumblebee-ftc-fashions-original-imag4qyj7y6qszke.jpeg?q=50",
+            "size": ["XL"],
+            "ideal": "kids",
+            "price": 166,
+            "oldPrice": 699,
+            "discount": 76
+        },
+        {
+            "id": 6,
+            "title": "Women Skater Black Dress",
+            "brand": "RedTape",
+            "img": "https://rukminim1.flixcart.com/image/880/1056/jxdkpzk0/dress/y/8/r/m-cl-wm-u0445-addyvero-original-imafhtbkzxhgyhfz.jpeg?q=50",
+            "size": ["S", "M"],
+            "ideal": "Women",
+            "price": 475,
+            "oldPrice": 750,
+            "discount": 36
+        }
+    ]
+}
