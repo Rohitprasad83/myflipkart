@@ -1,5 +1,6 @@
 import { useCart } from '../context/cart-context'
 import React from 'react'
+import { Link } from 'react-router-dom'
 export function Card({ product }) {
   const { id, title, brand, price, oldPrice, discount, size, img } = product
   const { cartItems, cartDispatch } = useCart()
@@ -7,30 +8,27 @@ export function Card({ product }) {
   function containsInCart() {
     return cartItems.products.some(product => product.id === id)
   }
-  console.log(cartItems)
   return (
-    <div className="card flex-col">
-      <img src={img} alt="mens Jeans" />
-      <p className="bold">{title}</p>
+    <div className="flex flex-col border-2 rounded">
+      <img src={img} alt="mens Jeans" className="w-64 h-64 object-contain	" />
+      <p className="font-bold	">{title}</p>
       <p>{brand}</p>
-      <div className="flex-row gap-1">
+      <div className="flex flex-row gap-1">
         <span>₹{price}</span>
-        <span className="old-price">₹{oldPrice}</span>
+        <span className="line-through font-light">₹{oldPrice}</span>
         <span>{discount}% off</span>
       </div>
       <p>Size {size.join(', ')}</p>
       <div className="flex-row gap-1 center">
-        <button>Add to Wishlist</button>
-
         {containsInCart(id, cartItems) ? (
-          <button
-            onClick={() =>
-              cartDispatch({ type: 'INCREASE_QUANTITY', payload: id })
-            }>
-            Add to Cart
-          </button>
+          <Link
+            to="/cart"
+            className="w-full block bg-yellow-400 rounded h-8 cursor-pointer flex items-center justify-center">
+            Go to Cart
+          </Link>
         ) : (
           <button
+            className="w-full bg-yellow-400 rounded h-8"
             onClick={() =>
               cartDispatch({ type: 'ADD_TO_CART', payload: product })
             }>

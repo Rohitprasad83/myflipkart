@@ -7,9 +7,9 @@ export function ProductListing() {
   return (
     <div>
       <Header />
-      <main className="flex-row gap-1">
+      <main className="flex flex-row gap-1 mb-4">
         <Filters />
-        <div className="card-container flex-row">
+        <div className="flex flex-row gap-2 flex-wrap">
           {productData.products &&
             productData.products.map(product => (
               <Card key={product.id} product={product} />
